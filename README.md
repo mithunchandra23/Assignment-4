@@ -1,37 +1,29 @@
 # Assignment-4
 
-This repository contains Python scripts for two tasks: creating and retrieving student marks using a dictionary and demonstrating list slicing techniques.
+This repository contains Python scripts for two tasks: reading and handling errors in files and writing/appending data to files.
 
-## Task 1: Create a Dictionary of Student Marks
-
-### Problem Statement:
-Write a Python program that:
-1. Creates a dictionary where student names are keys and their marks are values.  
-2. Asks the user to input a student's name.  
-3. Retrieves and displays the corresponding marks.  
-4. If the student’s name is not found, displays an appropriate message.
-
-### Features:
-- Uses a dictionary to store student names and their corresponding marks.
-- Accepts user input to search for a specific student's marks.
-- Displays the marks if the student is found in the dictionary.
-- Gracefully handles the case where the student's name is not present.
-
----
-
-## Task 2: Demonstrate List Slicing
+## Task 1: Read a File and Handle Errors
 
 ### Problem Statement:
 Write a Python program that:
-1. Creates a list of numbers from 1 to 10.  
-2. Extracts the first five elements from the list.  
-3. Reverses these extracted elements.  
-4. Prints both the extracted list and the reversed list.
+1. Opens and reads a text file named sample.txt.
+2. Prints its content line by line.
+3. Handles errors gracefully if the file does not exist.
 
 ### Features:
-- Demonstrates how to create and manipulate lists in Python.
-- Shows how to use slicing to extract a portion of a list.
-- Uses built-in methods to reverse a list.
-- Clearly prints the intermediate and final results for understanding.
+- Attempts to open and read the file sample.txt.
+- If the file exists, prints its content line by line.
+- If the file does not exist, gracefully handles the error and prints an appropriate message.
 
----
+
+### Problem Statement:
+Write a Python program that:
+1. Takes user input and writes it to a file named output.txt.
+2. Appends additional data to the same file.
+3. Reads and displays the final content of the file.
+
+### Features:
+- Takes input from the user and writes it to output.txt.
+- Appends more user input to the same file.
+- Reads the final content of the file and displays it.
+
